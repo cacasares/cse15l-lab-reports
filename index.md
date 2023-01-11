@@ -1,7 +1,10 @@
 # Lab 1
 
 ## Winter '23 Goal
-This quarter and beyond, I will strive to grow a healthier mindset and gain confidence in myself ! *#Growth* *#CharacterDevelopmentArc* **#Slay**
+This quarter and beyond, I will strive to grow a healthier mindset and gain confidence in myself ! 
+1. *#Growth* 
+2. *#CharacterDevelopmentArc* 
+3. **#Slay**
 ---
 **Playlist Faves:**
 `Is streaming:`
@@ -11,6 +14,10 @@ This quarter and beyond, I will strive to grow a healthier mindset and gain conf
 > Oh, say it ditto!
 ---
 * I'll Be There by Stayc
-![Image](http://pokemonmeme.com/cache/435f601f/av85f0d33be2bb6d7f895.gif)
 [Link](https://www.youtube.com/watch?v=FZuFxUrcw7Y)
->Oh, I'll be thereee!
+> Oh, I'll be thereee!
+
+```
+Playlist Faves Last Updated :3
+1/1
+```
