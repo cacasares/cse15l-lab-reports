@@ -18,6 +18,7 @@ Playlist Faves Last Updated :3
 > Oh, say it ditto!
 ---
 * I'll Be There by Stayc
+* ![Image](https://i.pinimg.com/564x/53/65/42/53654265d8cd90af50bca9350361e18d.jpg)
 [Link](https://www.youtube.com/watch?v=FZuFxUrcw7Y)
 > Oh, I'll be thereee!
 
