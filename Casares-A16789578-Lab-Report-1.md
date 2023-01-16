@@ -13,7 +13,7 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 * Below is a screenshot of what it should look like once you have connected:
 <img width="1106" alt="Screen Shot 2023-01-11 at 5 07 41 PM" src="https://user-images.githubusercontent.com/122491071/211951728-8b3b6668-b5de-42d0-b094-a07aad8973e6.png">
 
-3. **Trying Some Commands*
+3. **Trying Some Commands**
 * After completing step 2, try some commands such as:
 ```
 cd ~
