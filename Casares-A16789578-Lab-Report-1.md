@@ -7,9 +7,9 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 <img width="1440" alt="Screen Shot 2023-01-11 at 1 16 57 PM" src="https://user-images.githubusercontent.com/122491071/211950930-0a28bcf0-f444-4273-8d9a-2aad40a8eea0.png">
 
 2. **Remotely Connecting**
-* Open Vscode, then click 'Terminal' at the top bar, and open a new terminal.
+* These are the directions to follow for Mac devices, which is what I used. Open VScode, then click 'Terminal' at the top bar, and open a new terminal.
 * Use ssh by typing ssh cs15lwi23zz@ieng6.ucsd.edu, where you put your course-specific account instead of the placeholder 'zz'.
-* If asked to connect, type 'yes' and enter the password of your CSE15L account. The characters of your password may not appear as you are typing, but do not fret since this is likely for security purposes. Do not forget to disconnect (Ctrl-D) once you are done.
+* When asked to continue connecting, type 'yes' and enter the password of your CSE15L account, then click enter to connect. The characters of your password may not appear as you are typing, but do not fret since this is likely for security purposes. Do not forget to disconnect (Ctrl-D or Command-D) once you are done.
 <img width="1106" alt="Screen Shot 2023-01-11 at 5 07 41 PM" src="https://user-images.githubusercontent.com/122491071/211951728-8b3b6668-b5de-42d0-b094-a07aad8973e6.png">
 
 3. **Trying Some Commands*
