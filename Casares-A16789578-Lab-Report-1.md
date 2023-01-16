@@ -15,9 +15,9 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 3. **Trying Some Commands*
 * After completing step 2, try some commands such as :
 ```
-* cd ~
-* cd
-* ls -lat
+cd ~
+cd
+ls -lat
 ```
 * For example, running the command ls -lat seems to list out the files of the directory I am currently working in. This is what it should look similar to:
 <img width="1195" alt="Screen Shot 2023-01-11 at 5 14 01 PM" src="https://user-images.githubusercontent.com/122491071/211952387-95337b17-92b3-4faf-b622-03fa42faadaf.png">
