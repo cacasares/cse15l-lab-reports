@@ -23,8 +23,10 @@ ls -lat
 
 * For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
 <img width="244" alt="image" src="https://user-images.githubusercontent.com/122491071/215237864-1b8cea6b-ba59-47d4-9255-37608dd31574.png">
+
 * Continuing off the previous example, the command `cd`, which stands for 'change directories', afterwards would take us to the specified directory. If I want to go to the directory called `wavelet`, I would enter the command `cd wavelet`. I can then use the `ls` command to list the files I have in that directory. The screenshot below shows that my wavelet folder holds 8 files:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215238017-d3ea435c-b86b-46cb-93ca-e96fa3e38a1e.png">
+
 * A different example is running the command `ls -lat` seems to list out the files of the directory I am currently working in. This is what it should look similar to :
 <img width="1195" alt="Screen Shot 2023-01-11 at 5 14 01 PM" src="https://user-images.githubusercontent.com/122491071/211952387-95337b17-92b3-4faf-b622-03fa42faadaf.png">
 
