@@ -15,7 +15,7 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 * It should include your last login date, and a notice specifying that this system is only for use of the holder of the account. 
 
 3. **Trying Some Commands**
-* After completing step 2, try some commands such as:
+* After completing step 2, try some commands such as :
 ```
 cd 
 ls
