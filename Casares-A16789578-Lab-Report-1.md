@@ -10,9 +10,8 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 * These are the directions to follow for Mac devices, which is what I used. Open VScode, then click `Terminal` at the top bar, and open a new terminal.
 * Use ssh by typing `ssh cs15lwi23zz@ieng6.ucsd.edu`, where you put your course-specific account instead of the placeholder 'zz'.
 * When asked to continue connecting, type `yes` and enter the password of your CSE15L account, then click enter or return to connect. The characters of your password may not appear as you are typing, but do not fret since this is likely for security purposes. Do not forget to disconnect (`Ctrl-D` or `Command-D`) once you are done.
-* Below is a screenshot of what it should look like once you have connected:
+* Below is a screenshot of what it should look like once you have connected. It should include your last login date, and a notice specifying that this system is only for use of the holder of the account. :
 <img width="1214" alt="image" src="https://user-images.githubusercontent.com/122491071/215237438-76764a5d-1e7f-4354-8af9-ca18f26489a7.png">
-* It should include your last login date, and a notice specifying that this system is only for use of the holder of the account. 
 
 3. **Trying Some Commands**
 * After completing step 2, try some commands such as :
@@ -21,6 +20,7 @@ cd
 ls
 ls -lat
 ```
+
 * For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
 <img width="244" alt="image" src="https://user-images.githubusercontent.com/122491071/215237864-1b8cea6b-ba59-47d4-9255-37608dd31574.png">
 * Continuing off the previous example, the command `cd`, which stands for 'change directories', afterwards would take us to the specified directory. If I want to go to the directory called `wavelet`, I would enter the command `cd wavelet`. I can then use the `ls` command to list the files I have in that directory. The screenshot below shows that my wavelet folder holds 8 files:
