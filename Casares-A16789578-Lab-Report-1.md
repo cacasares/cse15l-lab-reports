@@ -2,7 +2,7 @@
 This is the first lab report for CSE 15L that will cover the first lab conducted today, 1/11/23, which involves installing VScode, remotely connecting, and trying certain commands.
 
 1. **Installing VScode**
-* My laptop already had VScode downloaded prior because of my CSE 11 class last quarter. If you do not already have it downloaded, you can go to [Link] https://code.visualstudio.com/ and follow the directions to download the application. 
+* My laptop already had VScode downloaded prior because of my CSE 11 class last quarter. If you do not already have it downloaded, you can go to [Link] (https://code.visualstudio.com/) and follow the directions to download the application. 
 * Below is a screenshot of what the application looks like:
 <img width="1440" alt="Screen Shot 2023-01-11 at 1 16 57 PM" src="https://user-images.githubusercontent.com/122491071/211950930-0a28bcf0-f444-4273-8d9a-2aad40a8eea0.png">
 
@@ -24,7 +24,7 @@ pwd
 ```
 
 * For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
-<img width="244" alt="image" src="https://user-images.githubusercontent.com/122491071/215237864-1b8cea6b-ba59-47d4-9255-37608dd31574.png">
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215311600-316f5deb-4c0d-49a1-849b-f49b128d54ec.png">
 
 * Continuing off the previous example, the command `cd`, which stands for 'change directories', afterwards would take us to the specified directory. If I want to go to the directory called `wavelet`, I would enter the command `cd wavelet`. I can then use the `ls` command to list the files I have in that directory. The screenshot below shows the previous `cd` command and that my wavelet folder holds 8 files after the second `ls` command:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215238017-d3ea435c-b86b-46cb-93ca-e96fa3e38a1e.png">
