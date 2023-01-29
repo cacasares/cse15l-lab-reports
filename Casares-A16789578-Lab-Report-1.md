@@ -2,7 +2,7 @@
 This is the first lab report for CSE 15L that will cover the first lab conducted today, 1/11/23, which involves installing VScode, remotely connecting, and trying certain commands.
 
 1. **Installing VScode**
-* My laptop already had VScode downloaded prior because of my CSE 11 class last quarter. If you do not already have it downloaded, you can go to https://code.visualstudio.com/ and follow the directions to download the application. 
+* My laptop already had VScode downloaded prior because of my CSE 11 class last quarter. If you do not already have it downloaded, you can go to **[https://code.visualstudio.com/](https://code.visualstudio.com/)** and follow the directions to download the application. 
 * Below is a screenshot of what the application looks like:
 <img width="1440" alt="Screen Shot 2023-01-11 at 1 16 57 PM" src="https://user-images.githubusercontent.com/122491071/211950930-0a28bcf0-f444-4273-8d9a-2aad40a8eea0.png">
 
