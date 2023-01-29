@@ -10,7 +10,7 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 * These are the directions to follow for Mac devices, which is what I used. Open VScode, then click `Terminal` at the top bar, and open a new terminal.
 * Use ssh by typing `ssh cs15lwi23zz@ieng6.ucsd.edu`, where you put your course-specific account instead of the placeholder 'zz'.
 * When asked to continue connecting, type `yes` and enter the password of your CSE15L account, then click enter or return to connect. The characters of your password may not appear as you are typing, but do not fret since this is likely for security purposes. Do not forget to disconnect (`Ctrl-D` or `Command-D`) once you are done.
-* Below is a screenshot of what it should look like once you have connected. It should include your last login date, and a notice specifying that this system is only for use of the holder of the account:
+* Below is a screenshot of what it should look like once you have connected. It should include your last login date, and a notice specifying that this system is only for use by the holder of the account:
 <img width="1214" alt="image" src="https://user-images.githubusercontent.com/122491071/215237438-76764a5d-1e7f-4354-8af9-ca18f26489a7.png">
 
 3. **Trying Some Commands**
