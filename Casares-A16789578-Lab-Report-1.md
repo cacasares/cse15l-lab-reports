@@ -19,6 +19,8 @@ This is the first lab report for CSE 15L that will cover the first lab conducted
 cd 
 ls
 ls -lat
+cd ~
+pwd
 ```
 
 * For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
@@ -29,5 +31,9 @@ ls -lat
 
 * A different example is running the command `ls -lat` seems to list out the files of the directory I am currently working in. This is what it should look similar to :
 <img width="1195" alt="Screen Shot 2023-01-11 at 5 14 01 PM" src="https://user-images.githubusercontent.com/122491071/211952387-95337b17-92b3-4faf-b622-03fa42faadaf.png">
+
+* This is a longer example in which I continue off the second example. After changing my directory to `wavelet` with the `cd` command and after I use `ls` to list all the files in the directory, I run the command `cd ~` to take me back to the home directory. The command `pwd`('print working directory') confirms that I have been taken back to the home directory. This is what it should look like:
+
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215311416-848cbb2e-d54b-4c24-be3c-d70c645518fe.png">
 
 
