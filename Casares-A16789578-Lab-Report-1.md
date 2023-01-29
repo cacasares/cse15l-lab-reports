@@ -25,15 +25,18 @@ pwd
 
 * For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215311600-316f5deb-4c0d-49a1-849b-f49b128d54ec.png">
+
 ---
 
 * Continuing off the previous example, the command `cd`, which stands for 'change directories', afterwards would take us to the specified directory. If I want to go to the directory called `wavelet`, I would enter the command `cd wavelet`. I can then use the `ls` command to list the files I have in that directory. The screenshot below shows the previous `cd` command and that my wavelet folder holds 8 files after the second `ls` command:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215238017-d3ea435c-b86b-46cb-93ca-e96fa3e38a1e.png">
+
 ---
 
 * Building off the previous examples, I run the command `cd ~` to take me back to the home directory. The command `pwd`('print working directory') confirms that I have been taken back to the home directory. This is what it should look like:
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215311416-848cbb2e-d54b-4c24-be3c-d70c645518fe.png">
+
 ---
 
 * A different example is running the command `ls -lat` seems to list out the files of the directory I am currently working in. This is what it should look similar to:
