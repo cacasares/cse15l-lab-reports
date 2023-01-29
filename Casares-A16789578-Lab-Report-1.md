@@ -23,7 +23,7 @@ cd ~
 pwd
 ```
 
-* For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have two directories: `perl5` and `wavelet`:
+* For example, say we were to run the command `ls`, it should list all your directories. This is what directories I have: `perl5` and `wavelet`:
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/122491071/215311600-316f5deb-4c0d-49a1-849b-f49b128d54ec.png">
 
 ---
