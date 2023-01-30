@@ -116,6 +116,7 @@ class StringServer {
                                   
 > This revised version works now because the reversed values of the array are now correctly being placed into the newArray. Before hand, the assignment was `arr[i] = newArray[arr.length - i - 1];`, which was giving values from newArray, which has default values of 0, to arr. That is why the value that is actually there are only 0s and why the second test passed. To fix the problem, we can simply assign the values of newArray correctly, where the elements at the last index until the 0th index of arr are given to newArray with the proper assignment order `newArray[i]=arr[arr.length - i - 1];`.
 
+---
 
 ## 3. Something New I Learned
 Before lab 2, I did not know how to build and run a server on my local computer. It was interesting to modify a code that takes in a url input and see how the statements returned can change based on the user input. It was insiightful to see how we can create a code that changes ouput by changing the path and query, such as we did with `/increment` in lab and `add-message?s=<string>` during this lab report.  
