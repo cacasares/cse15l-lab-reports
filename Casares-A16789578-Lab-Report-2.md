@@ -91,6 +91,7 @@ class StringServer {
     assertArrayEquals(new int[]{0}, output);
   }
 ```
+    
 > I tested the reversed method with the input of {0} and I expected the output of `0` as the first element of the array, but instead got `0`. I will explain why this input passed during the last step.
 ## Symptom 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/215366017-35d80edf-1e85-40ed-9011-f5cbf7ebc116.png">
@@ -108,6 +109,7 @@ class StringServer {
     return arr;
   }
 ```
+                                  
 > This revised version works now because the reversed values of the array are now correctly being placed into the newArray. Before hand, the assignment was `arr[i] = newArray[arr.length - i - 1];`, which was giving values from newArray, which has default values of 0, to arr. That is why the value that is actually there are only 0s and why the second test passed. To fix the problem, we can simply assign the values of newArray correctly, where the elements at the last index until the 0th index of arr are given to newArray with the proper assignment order `newArray[i]=arr[arr.length - i - 1];`.
 
 
