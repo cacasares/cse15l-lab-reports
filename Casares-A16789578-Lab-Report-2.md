@@ -95,11 +95,11 @@ class StringServer {
   }
 ```
     
-> I tested the reversed method with the input of {0} and I expected the output of `0` as the first element of the array, but instead got `0`. I will explain why this input passed during the last step.
+> I tested the reversed method with the input of {0} and I expected the output of `0` as the first element of the array, and got `0`. I will explain why this input passed during the last step.
 ## Symptom 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/215366017-35d80edf-1e85-40ed-9011-f5cbf7ebc116.png">
     
-> The behavior shown in the screenshot above shows that two tests ran, but one failed. The first test had a failure-inducing input, the array {1,2,3}. The symptom was that it returned `0` when I expected the first element of the reversed list to be `3`. For the second test, the input was the array {0} and the symptom was it returned 0 as the element in the array because the although the array assignment in the original code was incorrect, the default values of initialized arrays are 0s for ints, hence why the test passed. 
+> The behavior shown in the screenshot above shows that two tests ran, but one failed. The first test had a failure-inducing input, the array {1,2,3}. The symptom was that it returned `0` when I expected the first element of the reversed list to be `3`. For the second test, the input was the array {0} and the symptom was it returned 0 as the element in the array because the although the array assignment in the original code was incorrect, the default values of initialized arrays are 0s for ints, hence why the test passed. I will expand more on the bug below. 
 
 ## Fixed Reversed Method
 ```
@@ -119,4 +119,4 @@ class StringServer {
 ---
 
 ## 3. Something New I Learned
-Before lab 2, I did not know how to build and run a server on my local computer. It was interesting to modify a code that takes in a url input and see how the statements returned can change based on the user input. It was insiightful to see how we can create a code that changes ouput by changing the path and query, such as we did with `/increment` in lab and `add-message?s=<string>` during this lab report.  
+Before lab 2, I did not know how to build and run a server on my local computer. It was interesting to modify a code that takes in a url input and see how the statements returned can change based on the user input. It was insiightful to see how we can create a code that changes ouput by changing the path and query, such as we did with `/increment` in lab and `add-message?s=<string>` during this lab report. Before then, I never have used my code on an online server, so it was fun doing so! 
