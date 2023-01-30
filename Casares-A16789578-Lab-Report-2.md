@@ -71,7 +71,9 @@ class StringServer {
   }
   }
 ```
+                                  
 ## Test- Failure Inducing Input
+                                  
 ```  
   @Test
   public void testReversed2() {
@@ -80,6 +82,7 @@ class StringServer {
     assertArrayEquals(new int[]{3,2,1}, output);
   }
   ```
+                                  
 > I tested the reversed method with the input of {1,2,3} and I expected the output of `3` as the first element of the array, but instead got `0`.
   
 ## Test- Non-Failure Inducing Input
@@ -95,6 +98,7 @@ class StringServer {
 > I tested the reversed method with the input of {0} and I expected the output of `0` as the first element of the array, but instead got `0`. I will explain why this input passed during the last step.
 ## Symptom 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/215366017-35d80edf-1e85-40ed-9011-f5cbf7ebc116.png">
+    
 > The behavior shown in the screenshot above shows that two tests ran, but one failed. The first test had a failure-inducing input, the array {1,2,3}. The symptom was that it returned `0` when I expected the first element of the reversed list to be `3`. For the second test, the input was the array {0} and the symptom was it returned 0 as the element in the array because the although the array assignment in the original code was incorrect, the default values of initialized arrays are 0s for ints, hence why the test passed. 
 
 ## Fixed Reversed Method
