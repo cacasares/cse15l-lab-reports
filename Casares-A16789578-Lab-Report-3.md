@@ -3,7 +3,11 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 ## Search Commands for grep: grep -n, grep -v, grep -c, grep -w
 ---
-## grep -n 
+## `grep -n`
+> This command is helpful for finding lines or files where a specified string pattern is matched.
+---
+**Example #1**
+> Say I was a assigned to write an essay on Italy, its landmarks, and its history. I would want to search through the contents of `.written_2/` to find any files with the title containing the string "Italy", so I would use `grep -n "Italy"` in the following way:
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:488$ find written_2 > find-results.txt
@@ -13,7 +17,14 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 104:written_2/travel_guides/berlitz1/IntroItaly.txt
 128:written_2/travel_guides/berlitz1/WhatToItaly.txt
 149:written_2/travel_guides/berlitz1/WhereToItaly.txt
-````
+```
+
+> After using the command `grep -n "Italy"` and storing those contents into a .txt file and opening it with the `cat` command, we see there are 4 files whose titles contain the string "Italy." 
+
+---
+
+**Example #2**
+> Suppose I want to be more educated about the history of different countries and want to efficiently search for all the files in `.written_2/` that have a title containing the string "History." I would use `grep -n "History"` in the following way:
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:491$ find written_2 > find-results.txt
@@ -66,6 +77,8 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 231:written_2/travel_guides/berlitz2/PuertoRico-History.txt
 234:written_2/travel_guides/berlitz2/Vallarta-History.txt
 ```
+> After using the command `grep -n "History"` and storing those results in a .txt file and opening its contents, I see that there are 46 history files I can read up on!
+
 
 
 
