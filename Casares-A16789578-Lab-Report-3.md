@@ -5,7 +5,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 ---
 ## grep -n 
 
-`
+```
 [cs15lwi23abi@ieng6-203]:docsearch:488$ find written_2 > find-results.txt
 [cs15lwi23abi@ieng6-203]:docsearch:489$ grep -n "Italy" find-results.txt > grep-n-results.txt
 [cs15lwi23abi@ieng6-203]:docsearch:490$ cat grep-n-results.txt
@@ -13,8 +13,9 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 104:written_2/travel_guides/berlitz1/IntroItaly.txt
 128:written_2/travel_guides/berlitz1/WhatToItaly.txt
 149:written_2/travel_guides/berlitz1/WhereToItaly.txt
-`
-`
+````
+
+```
 [cs15lwi23abi@ieng6-203]:docsearch:491$ find written_2 > find-results.txt
 [cs15lwi23abi@ieng6-203]:docsearch:492$ grep -n "History" find-results.txt > grep-n-results2.txt
 [cs15lwi23abi@ieng6-203]:docsearch:494$ cat grep-n-results2.txt 
@@ -64,7 +65,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 228:written_2/travel_guides/berlitz2/Portugal-History.txt
 231:written_2/travel_guides/berlitz2/PuertoRico-History.txt
 234:written_2/travel_guides/berlitz2/Vallarta-History.txt
-`
+```
 
 
 
