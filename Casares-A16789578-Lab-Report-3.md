@@ -81,7 +81,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 ---
 
-## `grep -v` ##
+##`grep -v`##
 
 > This command is useful for *excluding* lines or files that contain a specified string pattern.
 
@@ -109,7 +109,7 @@ written_2/non-fiction/OUP/Rybczynski
 ---
 
 **Example #2**
-> In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use grep -v "non-fiction" once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro" to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
+> In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use grep -v "non-fiction" once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro"` to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:511$ grep -v  "non-fiction" find-results.txt > grep-v-results2.txt
@@ -229,6 +229,37 @@ written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
 > Now, I can better access the files that contain places to go and things to do. 
+
+---
+
+##`grep -c`##
+
+> This command is useful for counting the lines or files that contain a specified string pattern.
+
+**Example #1**
+>In this example, suppose I use `grep -c "WhereToGo` to find how many files contain the string "WhereToGo" in their titles to assess how many files I would need to skim beofre finally deciding where to travel to.
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:516$ grep -c "WhereToGo" find-results.txt
+24
+```
+> I see there are 24 files in `./written_2` that I can skim to decide my travel destination!
+
+---
+
+**Example #2**
+
+>In this example, I finally decided that I want to visit Canadaa, but I want to see how many files are in `./written_2` that talk about the country. I would use `grep -c "Canada"` to count how many files contain the string "Canada" in their titles to see how many sources I can absorb.
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:515$ grep -c "Canada" find-results.txt                     
+2
+```
+
+> I learn that there are only two files containing the string "Canada" in `./written_2`.
+
+---
+
 
 
 
