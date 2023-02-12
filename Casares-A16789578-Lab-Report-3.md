@@ -232,7 +232,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ---
 
-##`grep -c`
+## `grep -c`
 
 > This command is useful for counting the lines or files that contain a specified string pattern.
 
