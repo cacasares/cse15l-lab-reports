@@ -79,6 +79,157 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 ```
 > After using the command `grep -n "History"` and storing those results in a .txt file and opening its contents, I see that there are 46 history files I can read up on!
 
+---
+
+## `grep -v` ##
+
+> This command is useful for *excluding* lines or files that contain a specified string pattern.
+
+** Example #1 **
+
+>In this example, I use `grep -v` twice, to find the specific, general contents contained in the non-fiction directory. I use grep -v "travel_guides" once to filter out all the files found in the travel_guides directories, and again with `grep -v ".txt" to filter out the txt files. 
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:499$ grep -v  "travel_guides" find-results.txt > grep-v-results.txt
+[cs15lwi23abi@ieng6-203]:docsearch:501$ grep -v ".txt" grep-v-results.txt > grep-v-results-cont.txt
+[cs15lwi23abi@ieng6-203]:docsearch:503$ cat grep-v-results-cont.txt
+written_2
+written_2/non-fiction
+written_2/non-fiction/OUP
+written_2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Berk
+written_2/non-fiction/OUP/Castro
+written_2/non-fiction/OUP/Fletcher
+written_2/non-fiction/OUP/Kauffman
+written_2/non-fiction/OUP/Rybczynski
+```
+
+> After using the `cat` command to open up the txt file where I stored the contents of the two resulting `grep -n` commands, I can much easier see what the general contents are contained in the non-fiction directory and assess that there are 6 historical figures to read about. 
+
+---
+
+** Example #2 **
+> In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use grep -v "non-fiction" once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro" to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:511$ grep -v  "non-fiction" find-results.txt > grep-v-results2.txt
+[cs15lwi23abi@ieng6-203]:docsearch:512$ grep -v  "Intro" grep-v-results2.txt > grep-v-results2-1.txt
+[cs15lwi23abi@ieng6-203]:docsearch:513$ grep -v  "History" grep-v-results2-1.txt > grep-v-results2-2.txt
+[cs15lwi23abi@ieng6-203]:docsearch:514$ cat grep-v-results2-2.txt
+written_2
+written_2/travel_guides
+written_2/travel_guides/berlitz1
+written_2/travel_guides/berlitz1/HandRHawaii.txt
+written_2/travel_guides/berlitz1/HandRHongKong.txt
+written_2/travel_guides/berlitz1/HandRIbiza.txt
+written_2/travel_guides/berlitz1/HandRIsrael.txt
+written_2/travel_guides/berlitz1/HandRIstanbul.txt
+written_2/travel_guides/berlitz1/HandRJamaica.txt
+written_2/travel_guides/berlitz1/HandRJerusalem.txt
+written_2/travel_guides/berlitz1/HandRLakeDistrict.txt
+written_2/travel_guides/berlitz1/HandRLasVegas.txt
+written_2/travel_guides/berlitz1/HandRLisbon.txt
+written_2/travel_guides/berlitz1/HandRLosAngeles.txt
+written_2/travel_guides/berlitz1/HandRMadeira.txt
+written_2/travel_guides/berlitz1/HandRMadrid.txt
+written_2/travel_guides/berlitz1/HandRMallorca.txt
+written_2/travel_guides/berlitz1/JungleMalaysia.txt
+written_2/travel_guides/berlitz1/WhatToDublin.txt
+written_2/travel_guides/berlitz1/WhatToEdinburgh.txt
+written_2/travel_guides/berlitz1/WhatToEgypt.txt
+written_2/travel_guides/berlitz1/WhatToFWI.txt
+written_2/travel_guides/berlitz1/WhatToFrance.txt
+written_2/travel_guides/berlitz1/WhatToGreek.txt
+written_2/travel_guides/berlitz1/WhatToHawaii.txt
+written_2/travel_guides/berlitz1/WhatToHongKong.txt
+written_2/travel_guides/berlitz1/WhatToIbiza.txt
+written_2/travel_guides/berlitz1/WhatToIndia.txt
+written_2/travel_guides/berlitz1/WhatToIsrael.txt
+written_2/travel_guides/berlitz1/WhatToIstanbul.txt
+written_2/travel_guides/berlitz1/WhatToItaly.txt
+written_2/travel_guides/berlitz1/WhatToJamaica.txt
+written_2/travel_guides/berlitz1/WhatToJapan.txt
+written_2/travel_guides/berlitz1/WhatToLakeDistrict.txt
+written_2/travel_guides/berlitz1/WhatToLasVegas.txt
+written_2/travel_guides/berlitz1/WhatToLosAngeles.txt
+written_2/travel_guides/berlitz1/WhatToMadeira.txt
+written_2/travel_guides/berlitz1/WhatToMalaysia.txt
+written_2/travel_guides/berlitz1/WhatToMallorca.txt
+written_2/travel_guides/berlitz1/WhereToDublin.txt
+written_2/travel_guides/berlitz1/WhereToEdinburgh.txt
+written_2/travel_guides/berlitz1/WhereToEgypt.txt
+written_2/travel_guides/berlitz1/WhereToFWI.txt
+written_2/travel_guides/berlitz1/WhereToFrance.txt
+written_2/travel_guides/berlitz1/WhereToGreek.txt
+written_2/travel_guides/berlitz1/WhereToHawaii.txt
+written_2/travel_guides/berlitz1/WhereToHongKong.txt
+written_2/travel_guides/berlitz1/WhereToIbiza.txt
+written_2/travel_guides/berlitz1/WhereToIndia.txt
+written_2/travel_guides/berlitz1/WhereToIsrael.txt
+written_2/travel_guides/berlitz1/WhereToIstanbul.txt
+written_2/travel_guides/berlitz1/WhereToItaly.txt
+written_2/travel_guides/berlitz1/WhereToJapan.txt
+written_2/travel_guides/berlitz1/WhereToJerusalem.txt
+written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+written_2/travel_guides/berlitz1/WhereToLosAngeles.txt
+written_2/travel_guides/berlitz1/WhereToMadeira.txt
+written_2/travel_guides/berlitz1/WhereToMadrid.txt
+written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+written_2/travel_guides/berlitz1/WhereToMallorca.txt
+written_2/travel_guides/berlitz2
+written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt
+written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt
+written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt
+written_2/travel_guides/berlitz2/Athens-WhatToDo.txt
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bali-WhatToDo.txt
+written_2/travel_guides/berlitz2/Bali-WhereToGo.txt
+written_2/travel_guides/berlitz2/Barcelona-WhatToDo.txt
+written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt
+written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
+written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt
+written_2/travel_guides/berlitz2/Berlin-WhatToDo.txt
+written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt
+written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bermuda-history.txt
+written_2/travel_guides/berlitz2/Boston-WhereToGo.txt
+written_2/travel_guides/berlitz2/Budapest-WhatToDo.txt
+written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt
+written_2/travel_guides/berlitz2/California-WhatToDo.txt
+written_2/travel_guides/berlitz2/California-WhereToGo.txt
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt
+written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt
+written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
+written_2/travel_guides/berlitz2/China-WhatToDo.txt
+written_2/travel_guides/berlitz2/China-WhereToGo.txt
+written_2/travel_guides/berlitz2/Costa-WhatToDo.txt
+written_2/travel_guides/berlitz2/Costa-WhereToGo.txt
+written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt
+written_2/travel_guides/berlitz2/Crete-WhatToDo.txt
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
+written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
+written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
+written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
+written_2/travel_guides/berlitz2/Poland-WhatToDo.txt
+written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt
+written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
+```
+> Now, I can better access the files that contain places to go and things to do. 
+
 
 
 
