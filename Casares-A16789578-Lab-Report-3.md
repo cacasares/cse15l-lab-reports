@@ -85,7 +85,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 > This command is useful for *excluding* lines or files that contain a specified string pattern.
 
-** Example #1 **
+**Example #1**
 
 >In this example, I use `grep -v` twice, to find the specific, general contents contained in the non-fiction directory. I use grep -v "travel_guides" once to filter out all the files found in the travel_guides directories, and again with `grep -v ".txt" to filter out the txt files. 
 
@@ -108,7 +108,7 @@ written_2/non-fiction/OUP/Rybczynski
 
 ---
 
-** Example #2 **
+**Example #2**
 > In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use grep -v "non-fiction" once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro" to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
 
 ```
