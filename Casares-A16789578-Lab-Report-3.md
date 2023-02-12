@@ -81,7 +81,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 ---
 
-##`grep -v`##
+## `grep -v`
 
 > This command is useful for *excluding* lines or files that contain a specified string pattern.
 
@@ -232,7 +232,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ---
 
-##`grep -c`##
+##`grep -c`
 
 > This command is useful for counting the lines or files that contain a specified string pattern.
 
