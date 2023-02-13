@@ -88,7 +88,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 **Example #1**
 
->In this example, I use `grep -v` twice, to find the specific, general contents contained in the non-fiction directory. I use grep -v "travel_guides" once to filter out all the files found in the travel_guides directories, and again with `grep -v ".txt" to filter out the txt files. 
+>In this example, I use `grep -v` twice, to find the specific, general contents contained in the non-fiction directory. I use `grep -v "travel_guides"` once to filter out all the files found in the travel_guides directories, and again with `grep -v ".txt"` to filter out the txt files. 
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:499$ grep -v  "travel_guides" find-results.txt > grep-v-results.txt
@@ -110,7 +110,7 @@ written_2/non-fiction/OUP/Rybczynski
 ---
 
 **Example #2**
-> In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use grep -v "non-fiction" once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro"` to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
+> In this example, I use `grep -v` three times to find files in the travel_guides directory that do not discuss what things you can do or what places you can go at the travel destinations provided. I use `grep -v "non-fiction"` once to filter out all the files found in the non-fiction directory, again with `grep -v "Intro"` to filter out the intros to travel destinations, and again with `grep- v "History"` to filter out all the files that discuss the history of the travel destinations.
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:511$ grep -v  "non-fiction" find-results.txt > grep-v-results2.txt
@@ -238,7 +238,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 > This command is useful for counting the lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 
 **Example #1**
->In this example, suppose I use `grep -c "WhereToGo` to find how many files contain the string "WhereToGo" in their titles to assess how many files I would need to skim beofre finally deciding where to travel to.
+>In this example, suppose I use `grep -c "WhereToGo` to find how many files contain the string "WhereToGo" in their titles to assess how many files I would need to skim before finally deciding where to travel to.
 
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:516$ grep -c "WhereToGo" find-results.txt
@@ -273,7 +273,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 [cs15lwi23abi@ieng6-203]:docsearch:502$ grep -w "WhereToHawaii.txt" find-results.txt
 written_2/travel_guides/berlitz1/WhereToHawaii.txt
 ```
-> After storing the results from the `grep -w` search in a txt file and using the `cat` command to open the results, I do see that there is an exact match, so this file does indeed exist within the directory!
+> After running the command, I do see that there is an exact match, so this file does indeed exist within the directory!
 
 --- 
 
