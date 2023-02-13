@@ -262,7 +262,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ## `grep -w`
 
-> This command is useful for find matches of an *entire* and *exact* string pattern.
+> This command is useful for find matches of an *entire* and *exact* string pattern. I learned about it from the [GeeksForGeeks website : https://www.geeksforgeeks.org/grep-command-in-unixlinux/] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 
 **Example #1**
