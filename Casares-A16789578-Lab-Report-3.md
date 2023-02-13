@@ -4,7 +4,7 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 ## Search Commands for grep: grep -n, grep -v, grep -c, grep -w
 ---
 ## `grep -n`
-> This command is helpful for finding lines or files where a specified string pattern is matched.
+> This command is helpful for finding lines or files where a specified string pattern is matched. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 ---
 **Example #1**
 > Say I was a assigned to write an essay on Italy, its landmarks, and its history. I would want to search through the contents of `.written_2/` to find any files with the title containing the string "Italy", so I would use `grep -n "Italy"` in the following way:
@@ -83,7 +83,8 @@ This is the third lab report for CSE 15L that will material from lab 3  Search C
 
 ## `grep -v`
 
-> This command is useful for *excluding* lines or files that contain a specified string pattern.
+> This command is useful for *excluding* lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
+---
 
 **Example #1**
 
@@ -234,7 +235,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ## `grep -c`
 
-> This command is useful for counting the lines or files that contain a specified string pattern.
+> This command is useful for counting the lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 
 **Example #1**
 >In this example, suppose I use `grep -c "WhereToGo` to find how many files contain the string "WhereToGo" in their titles to assess how many files I would need to skim beofre finally deciding where to travel to.
@@ -262,7 +263,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ## `grep -w`
 
-> This command is useful for find matches of an *entire* and *exact* string pattern. I learned about it from the [GeeksForGeeks website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
+> This command is useful for find matches of an *entire* and *exact* string pattern. I learned about it from the [GeeksForGeeks website : https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 
 **Example #1**
