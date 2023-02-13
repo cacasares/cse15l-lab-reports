@@ -260,7 +260,39 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ---
 
+## `grep -w`
 
+> This command is useful for find matches of an *entire* string pattern.
+
+
+**Example #1**
+> After noticing the general pattern of the titles of the txt files found in `./written_2`, I want to see if there is a file that exists in the directory called `WhereToHawaii.txt`. In this example, I use the command `grep -w "WhereToHawaii.txt"` to help. 
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:502$ grep -w "WhereToHawaii.txt" find-results.txt
+written_2/travel_guides/berlitz1/WhereToHawaii.txt
+```
+> After storing the results from the `grep -w` search in a txt file and using the `cat` command to open the results, I do see that there is an exact match, so this file does indeed exist within the directory!
+
+--- 
+
+**Example #2**
+> Learning that the non-fiction directory contains texts regarding historical figures, I want to see if there is an electronic book that exists in this directory for American civil rights activist Ralph Abernathy. I notice that the files are titled by last name, so I simply use the command `grep -w "Abernathy"` to help.
+
+```
+[cs15lwi23abi@ieng6-203]:docsearch:501$ grep -w "Abernathy" find-results.txt
+written_2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written_2/non-fiction/OUP/Abernathy/ch3.txt
+written_2/non-fiction/OUP/Abernathy/ch6.txt
+written_2/non-fiction/OUP/Abernathy/ch7.txt
+written_2/non-fiction/OUP/Abernathy/ch8.txt
+written_2/non-fiction/OUP/Abernathy/ch9.txt
+```
+> I discover that there is indeed a whole directory with text files about him!
 
 
 
