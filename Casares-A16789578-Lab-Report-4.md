@@ -9,6 +9,7 @@ This is the fourth lab report for CSE 15L that will cover material from lab 7, C
 4. Edit the code file to fix the failing test
 5. Run the tests, demonstrating that they now succeed
 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
+
 ---
 
 ## Step 1: Log into ieng6
@@ -86,4 +87,4 @@ The `git add ListExamples.java` command was 12 up in the search history, so I us
 Likewise, the `git commit -m "Fixed bug in ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it. git commit *commits* the change made, while the message in quotes is meant to describe the changes the editor made.
 
 Finally, the `git push "a` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
-
+```
