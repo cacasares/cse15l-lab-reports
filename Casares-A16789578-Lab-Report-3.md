@@ -234,7 +234,6 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ---
 
 ## `grep -c`
-
 > This command is useful for counting the lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 
 **Example #1**
@@ -262,7 +261,6 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ---
 
 ## `grep -w`
-
 > This command is useful for find matches of an *entire* and *exact* string pattern. I learned about it from the [GeeksForGeeks website : https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 
