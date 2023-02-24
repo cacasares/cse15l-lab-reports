@@ -62,7 +62,7 @@ keys/commands entered:
 `<up><up><up>><enter>`
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrow 3 times to access it.
 `<up><up><up><enter>`
-The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` command was 3 up in the search history, so I used up arrow 3 times to access it.
+The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in the search history, so I used up arrow 3 times to access it.
 ```
 The output was: 
 ```
