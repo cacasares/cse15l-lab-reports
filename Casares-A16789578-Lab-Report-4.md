@@ -85,7 +85,7 @@ OK (2 tests)
 The `git add ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it. git add adds the changes to the file to the working directory, which is what needs to be done after I made the appropriate edits on the ListExamples.java file.
 
 <up><up><up><up><up><up><up><up><up><up><up><up><enter>
-Likewise, the `git commit -m "Fixed bug in ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it. git commit *commits* the change made, while the message in quotes is meant to describe the changes the editor made.
+Likewise, the `git commit -m "Fixed bug in ListExamples.java"` command was 12 up in the search history, so I used up arrow 12 times to access it. git commit *commits* the change made, while the message in quotes is meant to describe the changes the editor made.
 
 Finally, the `git push "a` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
 
