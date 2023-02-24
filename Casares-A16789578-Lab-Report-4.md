@@ -17,7 +17,7 @@ This is the fourth lab report for CSE 15L that will cover material from lab 7, C
 > To log into ieng6, the keys pressed were:
 `<up><enter>`
 After generating an SSH key for ieng6, I no longer have to enter my password.
-My login for `ssh cs15lwi23abi@ieng6.ucsd.edu` was 1 command up in the history, so I used the `<up>` key once to access it to save time, then pressed `<enter>` and did not have to enter a password.
+My login for `ssh cs15lwi23abi@ieng6.ucsd.edu` was 1 command up in the history, so I used the `<up>` key once to access it to save time, then pressed `<enter>` and did not have to enter a password, saving the time to enter a long password where you potentially make a typo!
 
 ---
 
