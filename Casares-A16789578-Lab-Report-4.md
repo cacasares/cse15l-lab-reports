@@ -13,11 +13,12 @@ This is the fourth lab report for CSE 15L that will cover material from lab 7, C
 ---
 
 ## Step 1: Log into ieng6
-
-> To log into ieng6, the keys pressed were `<up><enter>`
+```
+To log into ieng6, the keys pressed were:
+`<up><enter>`
 After generating an SSH key for ieng6, I no longer have to enter my password.
-My login for `ssh cs15lwi23abi@ieng6.ucsd.edu` was 1 command up in the history, so I used the `<up>` key once to access it to save time, then pressend `<enter>` and did not have to enter a password.
-
+My login for `ssh cs15lwi23abi@ieng6.ucsd.edu` was 1 command up in the history, so I used the `<up>` key once to access it to save time, then pressed `<enter>` and did not have to enter a password.
+```
 ---
 
 ## Step 2: Clone your fork of the repository from your Github account
