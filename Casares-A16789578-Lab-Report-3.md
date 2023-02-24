@@ -82,7 +82,6 @@ This is the third lab report for CSE 15L that will cover material from lab 3  Se
 ---
 
 ## `grep -v`
-
 > This command is useful for *excluding* lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 ---
 
