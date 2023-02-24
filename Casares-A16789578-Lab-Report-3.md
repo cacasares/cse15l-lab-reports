@@ -234,7 +234,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ## `grep -c`
 > This command is useful for counting the lines or files that contain a specified string pattern. I learned about it from the [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
-
+---
 **Example #1**
 >In this example, suppose I use `grep -c "WhereToGo` to find how many files contain the string "WhereToGo" in their titles to assess how many files I would need to skim before finally deciding where to travel to.
 
@@ -261,7 +261,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 
 ## `grep -w`
 > This command is useful for find matches of an *entire* and *exact* string pattern. I learned about it from the [GeeksForGeeks website : https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
-
+---
 
 **Example #1**
 > After noticing the general pattern of the titles of the txt files found in `./written_2`, I want to see if there is a file that exists in the directory called `WhereToHawaii.txt`. In this example, I use the command `grep -w "WhereToHawaii.txt"` to help. 
