@@ -42,6 +42,7 @@ The command `git clone` clones a repository when a url follows it.
 `cd lab7`
 `<up><up><up><up><up><up><up><enter>`
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 7 up in the search history, so I used up arrow 7 times to access it.
+
 `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 10 up in the search history, so I used up arrow 10 times to access it.
 
@@ -60,8 +61,10 @@ Tests run: 1,  Failures: 1
 > keys/commands entered: 
 `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `nano ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it.
+
 `<down> x 42, <right> x 12, <delete> <2>`
 The bug was 42 lines down, 12 charcters right, where `index1 +=1` should instead be `index2 +=1`.
+
 `<ctrl><o>, <enter>, <ctrl><x>`
 The `<ctrl><o>` command saves changes, while the `<ctrl><x>` command exits `nano`.
 
