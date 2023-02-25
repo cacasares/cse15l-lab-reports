@@ -28,8 +28,8 @@ My login for `ssh cs15lwi23abi@ieng6.ucsd.edu` was 1 command up in the history, 
 ## Step 2: Clone your fork of the repository from your Github account
 
 > After forking the `lab7` repository and obtaining the link to the GitHub ssh link, I entered `git clone git@github.com:cacasares/lab7.git` into the terminal and pressed `<enter>`.
-
 The command `git clone` clones a repository when a url follows it.
+
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/221324335-88e5a1df-f280-4563-931b-371577180aae.png">
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/221324400-6a8940d9-44f6-4fe9-b9aa-d368f83b36d5.png">
 
@@ -38,11 +38,13 @@ The command `git clone` clones a repository when a url follows it.
 
 ## Step 3: Run the tests, demonstrating that they fail
 
-> keys/commands entered: 
+**keys/commands entered:** 
 Changing to appropriate directory: `cd lab7`
-Compiling the tester: `<up><up><up><up><up><up><up><enter>`
+
+> Compiling the tester: `<up><up><up><up><up><up><up><enter>`
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 7 up in the search history, so I used up arrow 7 times to access it.
-Running the tester:`<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
+
+>Running the tester:`<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 10 up in the search history, so I used up arrow 10 times to access it.
 
 The output was: 
@@ -57,12 +59,14 @@ Tests run: 1,  Failures: 1
 
 ## Step 4: Edit the code file to fix the failing test
 
-> keys/commands entered: 
-Opening `ListExamples.java` with `nano`: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
+**keys/commands entered:** 
+> Opening `ListExamples.java` with `nano`: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `nano ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it.
-Finding the bug: `<down> x 42, <right> x 12, <delete> <2>`
+
+>Finding the bug: `<down> x 42, <right> x 12, <delete> <2>`
 The bug was 42 lines down, 12 charcters right, where `index1 +=1` should instead be `index2 +=1`.
-Saving changes and exiting: `<ctrl><o>, <enter>, <ctrl><x>`
+
+>Saving changes and exiting: `<ctrl><o>, <enter>, <ctrl><x>`
 The `<ctrl><o>` command saves changes, while the `<ctrl><x>` command exits `nano`.
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/221324081-724590f7-ccce-4878-acab-db3798e1f865.png">
@@ -72,10 +76,11 @@ The `<ctrl><o>` command saves changes, while the `<ctrl><x>` command exits `nano
 
 ## Step 5: Run the tests, demonstrating that they now succeed
 
-> keys/commands entered: 
-Compiling the tester: `<up><up><up>><enter>`
+**keys/commands entered:** 
+> Compiling the tester: `<up><up><up>><enter>`
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrow 3 times to access it.
-Running the tester: `<up><up><up><enter>`
+
+> Running the tester: `<up><up><up><enter>`
 The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in the search history, so I used up arrow 3 times to access it.
 
 The output was: 
@@ -95,12 +100,14 @@ OK (2 tests)
 ## Step 6: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 
-> keys/commands entered: 
-Adding the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
+**keys/commands entered:** 
+> Adding the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `git add ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it. git add adds the changes to the file to the working directory, which is what needs to be done after I made the appropriate edits on the ListExamples.java file.
-Commiting the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
+
+> Commiting the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 Likewise, the `git commit -m "Fixed bug in ListExamples.java"` command was 12 up in the search history, so I used up arrow 12 times to access it. `git commit -m "<message>"` *commits* the change made, while the message in quotes is meant to describe the changes the editor made.
-Pushing the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
+
+> Pushing the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 Finally, the `git push` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/221324497-579b539e-8d2a-479b-a5d1-860add6c8a25.png">
