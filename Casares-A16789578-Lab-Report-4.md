@@ -51,7 +51,7 @@ Tests run: 1,  Failures: 1
 > keys/commands entered: 
 `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 The `nano ListExamples.java` command was 12 up in the search history, so I used up arrow 12 times to access it.
-`<down> x 42 <right> x 12 <delete> <2>`
+`<down> x 42, <right> x 12, <delete> <2>`
 The bug was 42 lines down, 12 charcters right, where `index1 +=1` should instead be `index2 +=1`.
 `<ctrl><o>, <enter>, <ctrl><x>`
 The `<ctrl><o>` command saves changes, while the `<ctrl><x>` command exits `nano`.
@@ -89,3 +89,5 @@ Likewise, the `git commit -m "Fixed bug in ListExamples.java"` command was 12 up
 
 Finally, the `git push` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
 
+---
+Altogether, although I used the up and down arrows a lot, they save so much time, especially in the case of entering any previously entered commands incorrectly or having to re-type long inputs. 
