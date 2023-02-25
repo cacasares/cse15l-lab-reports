@@ -1,7 +1,7 @@
 # Lab Report 4
 This is the fourth lab report for CSE 15L that will cover material from lab 7, CSE Labs "Done Quick."
 
-## Shortcuts to Minimize Time
+## Shortcuts to Minimize Time!
 > This lab report is meant to describe the tricks/shortcuts we used during the lab competition. There were 6 total steps, not counting the setup (unforking and forking) and previous practice runs: 
 1. Log into ieng6
 2. Clone your fork of the repository from your Github account
