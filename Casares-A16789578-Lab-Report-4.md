@@ -39,7 +39,7 @@ The command `git clone` clones a repository when a url follows it.
 ## Step 3: Run the tests, demonstrating that they fail
 
 **keys/commands entered:** 
-Changing to appropriate directory: `cd lab7`
+> Changing to appropriate directory: `cd lab7`
 
 > Compiling the tester: `<up><up><up><up><up><up><up><enter>`
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 7 up in the search history, so I used up arrow 7 times to access it.
