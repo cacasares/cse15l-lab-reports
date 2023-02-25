@@ -102,6 +102,7 @@ Commiting the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 Likewise, the `git commit -m "Fixed bug in ListExamples.java"` command was 12 up in the search history, so I used up arrow 12 times to access it. `git commit -m "<message>"` *commits* the change made, while the message in quotes is meant to describe the changes the editor made.
 Pushing the changes: `<up><up><up><up><up><up><up><up><up><up><up><up><enter>`
 Finally, the `git push` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
+
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/122491071/221324497-579b539e-8d2a-479b-a5d1-860add6c8a25.png">
 
 
