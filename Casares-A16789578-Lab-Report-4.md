@@ -90,4 +90,4 @@ Likewise, the `git commit -m "Fixed bug in ListExamples.java"` command was 12 up
 Finally, the `git push` command was 12 up in the search history, so I used up arrow 12 times to access it. git push uploads the local changes to your remote repository, so now, the changes I made in the `ListExamples.java` file can be seen on my repository online on my GitHub account. 
 
 ---
-Altogether, although I used the up and down arrows a lot, they save so much time, especially in the case of entering any previously entered commands incorrectly or having to re-type long inputs. 
+## Altogether, although I used the up and down arrows a lot, they save so much time, especially in the case of entering any previously entered commands incorrectly or having to re-type long inputs. 
