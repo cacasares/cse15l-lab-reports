@@ -121,7 +121,6 @@ As we can see, I created the file `Philippines-WhatToDo.txt` and then used `nano
 ## whatis command
 The command whatis <command> describes commands and how to use them. 
 ---
-## `mv`
 > [DigitalOcean website : https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix).
 ---
 **Example **
