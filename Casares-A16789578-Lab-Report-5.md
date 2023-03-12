@@ -3,7 +3,7 @@ This is the last lab report for CSE 15L meant to reflect upon a past lab report.
 
 ## `mv` command
 > The mv command either moves a file to a different directory or renames it. 
-Source: [[IBM website : (https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command]](https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command)
+Source: [IBM website : (https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command](https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command)
 
 ---
 
@@ -134,7 +134,7 @@ As we can see, I created the file `Philippines-WhatToDo.txt` and then used `nano
 
 ## `whatis <command>`
 > The command `whatis <command>` describes commands and how to use them. 
-Source: [GeeksforGeeks website: https://www.geeksforgeeks.org/whatis-command-in-linux-with-examples/](https://www.geeksforgeeks.org/whatis-command-in-linux-with-examples/)
+Source: [Tech Republic website: https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 
 ---
 
