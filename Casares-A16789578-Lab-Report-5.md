@@ -4,7 +4,9 @@ This is the last lab report for CSE 15L meant to reflect upon a past lab report.
 ## `mv` command
 > The mv command either moves a file to a different directory or renames it. 
 Source: [[IBM website : (https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command]](https://www.ibm.com/docs/en/aix/7.1?topic=files-moving-renaming-mv-command)
+
 ---
+
 **Example #1**
 > Say I opened the path `docsearch/written_2/travel_guides` and I used the `ls` command to see what files are there. I notice that there is a file named `WhatToUnknown.txt`. I use the `cat` command to read about it and learn it is about what to do in Japan. I now want to rename it.
 
@@ -45,9 +47,14 @@ HistoryDublin.txt      HistoryJerusalem.txt  IntroIndia.txt           WhatToDubl
 [cs15lwi23abi@ieng6-203]:berlitz1:520$ 
 ```
 The file now has the appropriate name. 
+
 ---
+
 **Example #2**
 > I will now use this command to move a file to a different directory. Say I want to store the file `berlitz2_grep.txt` in `docsearch` into a more specific directory, `written_2/travel_guides/berlitz2/`. I would use `mv`.
+
+---
+
 Before:
 ```
 [cs15lwi23abi@ieng6-203]:docsearch:532$ ls
@@ -59,6 +66,9 @@ Handler.class          ServerHttpHandler.class  berlitz1_grep.txtgrep  find-resu
 [cs15lwi23abi@ieng6-203]:docsearch:533$ mv berlitz2_grep.txt written_2/travel_guides/berlitz2/
 [cs15lwi23abi@ieng6-203]:docsearch:534$ 
 ```
+
+---
+
 After:
 ```
 [cs15lwi23abi@ieng6-203]:berlitz2:539$ ls
@@ -80,10 +90,15 @@ Bahamas-Intro.txt        Berlin-WhereToGo.txt     CanaryIslands-WhatToDo.txt  Cr
 The file is now in `berlitz2`.
 
 > After using the command `grep -n "Italy"` and storing those contents into a .txt file and opening it with the `cat` command, we see there are 4 files whose titles contain the string "Italy." 
+
 ---
+
 ## `touch`
 > This command creates an file.
 Source: [GeeksforGeeks website: https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/](https://www.geeksforgeeks.org/touch-command-in-linux-with-examples/)
+
+---
+
 **Example**
 > Suppose I want to add a file "WhatToDoPhilippines.txt" to `travel_guides` after visiting the country.
 I would first want to ensure I am in the correct directory, then create the file there. 
@@ -110,12 +125,19 @@ Bahamas-Intro.txt        Berlin-WhereToGo.txt     CanaryIslands-WhatToDo.txt  Cr
 [cs15lwi23abi@ieng6-203]:berlitz2:544$ cat Philippines-WhatToDo.txt 
 The Philippines has plenty of activities available for visitors to do!
 ```
-As we can see, I created the file `Philippines-WhatToDo.txt` and then used `nano` to edit the file. Now, it is added to the directory of travel guides. specifically `berlitz2`.
+
 ---
+
+As we can see, I created the file `Philippines-WhatToDo.txt` and then used `nano` to edit the file. Now, it is added to the directory of travel guides. specifically `berlitz2`.
+
+---
+
 ## `whatis <command>`
 > The command `whatis <command>` describes commands and how to use them. 
 Source: [GeeksforGeeks website: https://www.geeksforgeeks.org/whatis-command-in-linux-with-examples/](https://www.geeksforgeeks.org/whatis-command-in-linux-with-examples/)
+
 ---
+
 **Example**
 > Here, I use the `whatis <command>` to remember how to use the commands we learned in class such as `grep` and `find` and other useful commands, such as `mv`.
 ```
@@ -138,7 +160,9 @@ rm (1p)              - remove directory entries
 find (1)             - search for files in a directory hierarchy
 find (1p)            - find files
 ```
+
 ---
+
 ## As we can see, the additional commands I worked with are especially useful for creating new files, moving/renaming them, and learning the function of commands you may be unfamiliar with. 
 
 
